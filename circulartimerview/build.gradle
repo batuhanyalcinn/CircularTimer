@@ -35,7 +35,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.sureshmaidaragi1919'
+                groupId = 'com.github.batuhanyalcinn'
                 artifactId = 'CircularTimer'
                 version = '1.3'
             }
