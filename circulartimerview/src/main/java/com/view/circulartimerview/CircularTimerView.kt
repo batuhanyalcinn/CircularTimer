@@ -55,7 +55,7 @@ class CircularTimerView : View {
         progressColor = ta.getColor(R.styleable.CircularTimerView_progressColor, Color.BLUE)
         backgroundColor = ta.getColor(R.styleable.CircularTimerView_backgroundColor, Color.GRAY)
         progressBackgroundColor = ta.getColor(R.styleable.CircularTimerView_progressBackgroundColor, Color.GRAY)
-        strokeWidthDimension = ta.getFloat(R.styleable.CircularTimerView_strokeWidthDimension, 10f)
+        strokeWidthDimension = ta.getFloat(R.styleable.CircularTimerView_strokeWidthDimension, 1f)
         backgroundWidth = ta.getFloat(R.styleable.CircularTimerView_backgroundWidth, 10f)
         roundedCorners = ta.getBoolean(R.styleable.CircularTimerView_roundedCorners, false)
         maxValue = ta.getFloat(R.styleable.CircularTimerView_maxValue, 100f)
